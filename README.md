@@ -7,5 +7,9 @@ python app.py
 
 
  # CURL command to test the server
- curl -X POST http://127.0.0.1:5000/capitalize -H "Content-Type: application/json" -d '{"text": "hello world"}'
 
+ ## Localhost
+ curl -X POST http://127.0.0.1:8088/capitalize -H "Content-Type: application/json" -d '{"text": "hello world"}'
+
+## MacBook Air
+curl -X POST http://192.168.219.6:8088/capitalize -H "Content-Type: application/json" -d '{"text": "hello world"}'
